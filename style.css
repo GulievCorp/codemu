@@ -1,0 +1,72 @@
+#naprimer {
+    color: red;
+}
+
+td {
+	width: 200px;
+	height: 100px;
+}
+
+#right {
+	text-align: right;
+}
+
+#center {
+	text-align: center;
+}
+
+#left {
+	text-align: left;
+}
+
+#long {
+    text-align: justify;
+    width: 300px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#normal {
+    font-weight: normal;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#30px {
+    font-size: 30px;
+}
+
+#arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lh {
+    font-size: 20px;
+    line-height: 50px;
+    text-align: justify;
+    width: 400px;
+}
+
+#arialPrimer {
+    font: 16px Arial;
+}
+
+#krasnaya {
+    text-indent: 50px;
+}
+
+#overline {
+    text-decoration: overline;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#lineTrough {
+    text-decoration: line-through;
+}

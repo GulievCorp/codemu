@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Основы работы с CSS</h2>
+    <p>CSS это стиль сайта. Он храниться в отдельном файле style.css</p>
+    <p>Подключается он в теге head. Через тэг link</p>
+    <h2>Как работать с CSS</h2>
+    <p>В файле css мы можем обращаться к тегам и задавать им стили</p>
+    <span> p { color: red; } </span>
+    <p id="naprimer">например вот так</p>
+    <h2>Способы задания цвета на CSS</h2>
+    <p>Можно задавать цвет с помощью rgp</p>
+    <span>Например вот так</span>
+    <span>p { color: rgb(255, 236, 114); }</span>
+    <p>Или вот так</p>
+    <span>p { color: #ff0000; }</span>
+    <h2>Ширина и высота элементов на CSS</h2>
+    <p>Для ширины и высота есть свойства width и height</p>
+    <table border="1">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+    </table>
+    <p>Тут у td будет width 200 и height 100</p>
+    <h2>Выравнивание текста на CSS</h2>
+    <p id="right">rigth</p>
+    <p id="center">center</p>
+    <p id="left">left</p>
+    <p>Это делается с помощью свойства text-align: у которого есть значения left center и right</p>
+    <p>Так же есть значение jistify</p>
+    <p id="long">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis deleniti corporis,
+      laudantium soluta sed quos ad nemo consectetur necessitatibus sapiente.
+    </p>
+    <p>С помощью justify текст выравнивается по блоку</p>
+    <h2>Жирность текста CSS</h2>
+    <p id="bold">Тут текст будет жирным, потому что я укажу ему свойство font-weight</p>
+    <h2 id="normal">А тут текст внезапно станет обычным</h2>
+    <h2>Курсив на CSS</h2>
+    <p id="italic">Тут текст будет курсиовм. Потому что я укажу ему свойство font-style italic</p>
+    <h2>Размер шрифта на CSS</h2>
+    <p id="30px">
+      Тут будет размер у текста в 30 пикселей потому что я укажу свойство font-size 30px
+    </p>
+    <h2>Тип шрифта на CSS</h2>
+    <p>Свойство font family определяет семейтсво шрифта</p>
+    <p>
+      Самые распространненые шрифты это: Times New Roman (стоит по умолчанию), Arial, Georgia,
+      Verdana, Trebuchet MS, Impact, Arial Black, Comic Sans MS, Courier New.
+    </p>
+    <p id="arial">Тут будет шрифт Arial потому что я ему задам его с помощью font-family Arial</p>
+    <p>
+      Если шрифт состоит из нескольких слов то имя такого шрифта следует брать в ковычки вот так
+    </p>
+    <p>'Comic Sans MS'</p>
+    <h2>Межстрочный интервал CSS</h2>
+    <p>Это расстояние между линями текста, то есть белый интервал между словами. Пример ниже</p>
+    <span id="lh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid inventore soluta odio culpa repellat similique cumque tempora fugit possimus ducimus!
+    </span>
+    <p>В тексте выше lh будет равняться 50 пикселям</p>
+    <p>Значение lh можно указывать без единиц. То есть не обязательно должно быть целое число. МОжно указать его так line-height: 1.5</p>
+    <h2>Свойство сокращение font</h2>
+    <p>В свойстве font указывается сразу несколько значений для текста, и оно содержит в себе размер шрифта, семеймтво, жирность, курсив, и межстрочный интервал</p>
+    <p>Порядок свойств имеет значение. Есть обязательные свойства размер шрифта, семейтсво.</p>
+    <p id="arialPrimer">У этого текста шрифт будет в 16 пикселей и семейство будет Arial потому что я укажу font: 16px Arial</p>
+    <h2>Красная строка текста на CSS</h2>
+    <p>Для того что бы указать красную строку. Есть свойство text-indent.</p>
+    <p id="krasnaya">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, assumenda. Тут будет красная строка потому что мы ввели text-ident 50px</p>
+    <h2>Эффекты текста на CSS</h2>
+    <p>Свойство text-decoration позволяет задавать некоторые эффекты для текста. Подчеркивание перечеркивание линию сверху, а так же отменять какие либо эффекты</p>
+    <p id="underline">uderline</p>
+    <p id="overline">overline</p>
+    <p id="lineTrough">line-trough</p>
+    <p id="none">none</p>
+  </body>
+</html>
